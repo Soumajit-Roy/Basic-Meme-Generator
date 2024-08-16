@@ -1,0 +1,13 @@
+.header-el{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+}
+
+.header-el > h1{
+    font-weight: 500;
+}
