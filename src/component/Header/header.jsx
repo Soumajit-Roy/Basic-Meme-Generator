@@ -1,12 +1,15 @@
-import React from "react";
-import "./header.css"
-import svgImg from "../../assets/Trollface.png"
+import React from "react"
+import img from '../../assets/Trollface.png'
 
-export default function Header(){
-    return(
-        <div className="header-el">
-            <img src={svgImg} width="40" height="40" />
-            <h1>Meme Generator</h1>
-        </div>
+export default function Header() {
+    return (
+        <header className="header">
+            <img 
+                src={img}
+                className="header--image"
+            />
+            <h2 className="header--title">Meme Generator</h2>
+            <h4 className="header--project">React Course - Project 3</h4>
+        </header>
     )
 }
